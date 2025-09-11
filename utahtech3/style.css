@@ -2,7 +2,8 @@ body{
     background-color:#FFFFFF;
      color:#666666;
      font-family: verdana,arial,sans-serif;
-     
+     background-image: linear-gradient(to bottom, #eeeeee,#ffffff); 
+     background-attachment:fixed; 
     }
 
   header{
@@ -38,7 +39,10 @@ dt{
 }
 
 #wrapper{
+    background-color:#ffffff;
     width:80%;
+    min-width:960px;
+    max-width: 2048px;
     margin-right:auto;
     margin-left:auto;
 }
