@@ -18,6 +18,8 @@ header h1{
     background-image: url(utahtechlogo.jpg);
     background-position: right;
     background-repeat: no-repeat;
+    padding: 1em;
+    background-origin: content-box;
     margin:0;
     }   
 nav{
