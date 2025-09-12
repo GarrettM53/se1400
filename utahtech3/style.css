@@ -76,3 +76,10 @@ main{
     background-repeat: no-repeat;
     background-position:center;
 }
+#facultyhero{
+    background-image: url('images/facultyhero.jpg');
+    height:300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
