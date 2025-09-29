@@ -72,8 +72,8 @@ dt{
     margin-left:auto;
     box-shadow: 0px 3px 3px rgba(66,66,66,.3);
     display:grid;
-    grid-auto-rows: 0px auto;
-   grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    grid-auto-rows: auto;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
 h3{
     color: #003058;
@@ -83,6 +83,10 @@ main{
     grid-row: 4/ 5;
     grid-column: 2/-2;
     background-color:#FFF; 
+}
+main img{
+    float: right;
+    padding-left:2rem;
 }
 #homehero{
     background-image: url('images/homehero.jpg');
