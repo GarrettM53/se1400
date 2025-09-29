@@ -47,8 +47,23 @@ nav ul{
     display:flex;
     list-style-type:none;
     flex-flow: row nowrap;
-}  
-nav a {text-decoration: none; }   
+}
+
+nav ul li{
+    width:100%;
+}
+
+nav a {
+    text-decoration: none;
+    color:#FFF;
+    padding:1rem 0rem;
+    display: block;
+    text-align: center; 
+}   
+
+nav a:hover{
+    background-color:#BA1C21;
+}
 h2{
     color: #424242;
     font-family: Georgia,sans-serif;
