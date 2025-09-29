@@ -8,6 +8,7 @@ body{
      font-family: verdana,arial,sans-serif;
      background-image: linear-gradient(to bottom, #eeeeee,#ffffff); 
      background-attachment:fixed; 
+     margin:0px;
     }
 
   header{
@@ -60,6 +61,9 @@ dt{
     margin-right:auto;
     margin-left:auto;
     box-shadow: 0px 3px 3px rgba(66,66,66,.3);
+    display:grid;
+    grid-auto-rows: 0px auto;
+   grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
 h3{
     color: #003058;
