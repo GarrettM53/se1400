@@ -28,7 +28,11 @@ header h1{
     padding: 1em;
     background-origin: content-box;
     margin:0;
-    }   
+    }  
+header a{
+        text-decoration:none;
+        color:#FFF;
+    } 
 nav{
     font-weight: bold;
     background-color: #F3F3F3;
