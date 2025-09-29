@@ -42,7 +42,12 @@ nav{
     top:0;
     }
 nav ul{
-    margin:0px;    
+    margin:0px;  
+    padding:0px;
+    display:flex;
+    list-style-type:none;
+    flex-flow: row nowrap;
+}  
 nav a {text-decoration: none; }   
 h2{
     color: #424242;
