@@ -12,7 +12,7 @@ nav{
 }
 
 main{
-    grid-column: 2/-2;
+    grid-column: 1/2;
     grid-row: 1/4;
     height: 1000px;
     background-color: rgb(100, 229, 100);
@@ -26,6 +26,7 @@ footer{
 }
 
 #samplephotosbot{
+    grid-column:1/-1
 }
 
 #citybanner{
