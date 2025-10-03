@@ -5,12 +5,24 @@
 }
 
 nav{
+    grid-column: 2/-2;
+    grid-row: 1/1;
+    height:200px;
+    background-color:aqua;
 }
 
 main{
+    grid-column: 2/-2;
+    grid-row: 1/4;
+    height: 1000px;
+    background-color: rgb(100, 229, 100);
 }
 
 footer{
+    grid-column:1/-1;
+    grid-row:5;
+    height:50px;
+    background-color: orange;
 }
 
 #samplephotosbot{
