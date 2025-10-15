@@ -7,30 +7,33 @@ header{
     grid-column:1/-1;
     grid-row: 1/-1;
     display:flex;
+    align-items:center;
     height:200px;
-    padding: 10px 20px;
+    padding: 0px 20px;
     background-image:url("images/cityback.jpg");
     background-size:cover;
     background-position:center;
 }
 nav {
-  align:center right;
+  display:flex;
     
 }
 nav.mainnav{
   display:flex;
   list-style:none;
-  margin:0px;
-  padding:0px;
-  width:100%;
+  margin:0;
+  padding:0;
+  position:absolute;
+  margin-left:auto;
 }
 nav.mainnav li{
-    margin-right:20px;
+    margin-left:20px;
 }
-nav.mainnav a li{
+nav.mainnav li a{
     text-decoration:none;
     color:white;
     font-weight:bold;
+    
 }
 
 body{
