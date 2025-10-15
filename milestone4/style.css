@@ -37,3 +37,7 @@ footer {
     grid-row: 1/4;
     height:200px;
 }
+
+#logo{
+    background-image: url("images/logo.png")
+}
