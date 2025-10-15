@@ -72,3 +72,10 @@ footer {
     width:100px;
     background-repeat:no-repeat;
 }
+
+.mainphoto{
+    float:left;
+    width:150px;
+    height:auto;
+    margin: 0 20px 20px 0;
+}
