@@ -12,6 +12,7 @@ header{
     background-image:url("images/cityback.jpg");
     background-size:cover;
     background-position:center;
+    justify-content:space-between;
 }
 nav {
   align:center right;
@@ -51,7 +52,7 @@ footer {
 #logo{
     background-image: url("images/logo.png");
     background-position: left center;
-    background-size:contain;
+    background-size:cover;
     height:75px;
     width:100px;
     background-repeat:no-repeat;
