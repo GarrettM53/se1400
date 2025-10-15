@@ -6,11 +6,9 @@
 header{
     grid-column:1/-1;
     grid-row: 1/-1;
-    display:flex;
     align-items:center;
     height:200px;
     padding:0px;
-    
     background-image:url("images/cityback.jpg");
     background-size:cover;
     background-position:center;
@@ -20,7 +18,8 @@ nav{
     grid-row: 2 / 3;
     grid-column: 2/ -2;
     position:sticky;
-    top:0;
+    vertical-align:top;
+    margin
     }
 nav ul{
     margin:0px;  
