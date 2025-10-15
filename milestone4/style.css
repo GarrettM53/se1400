@@ -7,7 +7,7 @@ header{
     grid-column:1/-1;
     grid-row: 1/-1;
     align-items:center;
-    height:200px;
+    height:150px;
     padding:0px;
     background-image:url("images/cityback.jpg");
     background-size:cover;
@@ -43,6 +43,7 @@ nav a {
 
 body{
     background-color:#290038;
+    color:white;
 }
 main {
     grid-column: 3/7;
