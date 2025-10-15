@@ -5,10 +5,16 @@
 }
 
 nav {
-    grid-column: 2/-2;
-    grid-row: 1/1;
-    height: 100px;
+  align:center;
     
+}
+nav.mainnav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    padding-right:14px;
 }
 body{
     background-color:#290038;
@@ -39,5 +45,6 @@ footer {
 }
 
 #logo{
-    background-image: url("images/logo.png")
+    background-image: url("images/logo.png");
+    background-position: left center;
 }
