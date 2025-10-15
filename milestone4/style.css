@@ -43,6 +43,7 @@ nav a {
 body{
     background-color:#290038;
     color:white;
+    margin:0;
 }
 main {
     grid-column: 2/8;
