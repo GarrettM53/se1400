@@ -58,12 +58,17 @@ footer {
     height: 50px;
 }
 
-#samplephotosbot {
+#samplephotosbot1 {
     grid-column: 3/7;
     grid-row: 2/3;
     height: 200px;
+    background-image: url('images/iphone.jpg');
 } 
+#samplephotosbot2{
+}
 
+#samplephotosbot3{
+}
 
 #logo{
     background-image: url("images/logo.png");
