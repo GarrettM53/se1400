@@ -67,17 +67,36 @@ footer {
     margin-left: 100px;
 } 
 #samplephotosbot1 img{
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     object-fit:cover;
 }
 
 #samplephotosbot2{
+     grid-column:2/8;
+    display:inline-block;
+    width:200px;
+    text-align:center;
+    margin:10px;
+    margin-left: 150px;
 }
-
+#samplephotosbot2 img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+}
 #samplephotosbot3{
+    grid-column:2/8;
+    display:inline-block;
+    text-align:center;
+    margin:20px;
+    margin-left: 150px;
 }
-
+#samplephotosbot3 img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+}
 #logo{
     background-image: url("images/logo.png");
     background-position: left center;
