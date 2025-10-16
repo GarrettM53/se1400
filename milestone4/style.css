@@ -20,10 +20,12 @@ nav ul{
     display:flex;
     list-style-type:none;
     flex-flow: row nowrap;
+    justify-content:flex-end;
 }
 
 nav ul li{
-    width:100%;
+    width:100px;
+    
 }
 
 nav a {
