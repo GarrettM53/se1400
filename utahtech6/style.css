@@ -154,9 +154,9 @@ form input,form textarea{
     background-color:#fafafa;
     border:none;
 }
-form input:focus, form textarea:focus;{
+form input:focus, form textarea:focus{
     outline:none;
-    background-color: #f0f0f0;
+    background-color:#f0f0f0;
 }
 form label{
     padding:10px;
