@@ -81,6 +81,29 @@ dt{
     color:#003058;
     font-weight: bold;
     }
+table{
+    margin:0 auto;
+    border: 1px solid #424242;
+    width:100%;
+    border-collapse:collapse;
+}
+td{
+    padding: 5px;
+    border: 1px solid #424242;
+    text-align:center;
+}
+th{
+    padding: 5px;
+    border: 1px solid #424242;
+}
+
+.text{
+    text-align:left;
+}
+tr:nth-of-type(even){
+    background-color:#f3f3f3;
+}
+
 .ut{
     color:#BA1C21;
     font-weight:bold;
