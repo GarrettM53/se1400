@@ -132,7 +132,7 @@ main img{
     grid-column: 1/ -1;
 }
 #alumnihero{
-    background-image:url("images/alumnihero.jpg");
+    background-image: url("images/alumnihero.jpg");
     height:300px;
     background-size:cover;
     background-repeat: no-repeat;
