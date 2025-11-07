@@ -156,8 +156,17 @@ form input,form textarea{
 }
 form input:focus, form textarea:focus;{
     outline:none;
-    background-color: #f0f0f0
+    background-color: #f0f0f0;
 }
+form label{
+    padding:10px;
+    text-align:right;
+}
+#mySubmit{
+    width:10rem;
+    grid-column:2/3;
+}
+
 #bluebar{
     background-color: #003058;
     grid-row: 1/2;
@@ -201,7 +210,11 @@ form input:focus, form textarea:focus;{
         grid-column: 5/8;
         height:auto;
     }
-
+    #alumnihero{
+         grid-row:2/5;
+        grid-column: 5/8;
+        height:auto;
+    }
     main img{
         float:none;
         width:100%;
@@ -228,5 +241,8 @@ form input:focus, form textarea:focus;{
     #facultyhero{
         display:none;
     }
+}
+#alumnihero{
+    display:none;
 }
 
