@@ -214,10 +214,11 @@ form label{
 }
 #shoppingcart{
     display:grid;
-    grid-template-columns:repeat(4.1fr);
+    grid-template-columns:repeat(3,1fr);
     gap:2rem;
 }
-#shopping cart img{
+
+#shoppingcart img{
     width:100%;
     height:auto;
 }
