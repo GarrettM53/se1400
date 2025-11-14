@@ -221,8 +221,7 @@ video{
     nav ul{
         flex-flow: column nowrap;
     }
-    nav a{
-        text
+    
     #homehero{
         grid-row:2/3;
         grid-column: 5/8;
