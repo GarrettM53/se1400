@@ -212,6 +212,15 @@ form label{
     grid-column: 1/-1;
     
 }
+#shoppingcart{
+    display:grid;
+    grid-template-columns:repeat(4.1fr);
+    gap:2rem;
+}
+#shopping cart img{
+    width:100%;
+    height:auto;
+}
 video{
     float:right;
     margin-left:2em;
@@ -231,7 +240,9 @@ video{
     nav ul{
         flex-flow: column nowrap;
     }
-
+    #shoppingcart{
+        grid-template-columns:repeat(2,1fr);
+    }
     #homehero{
         grid-row:2/3;
         grid-column: 5/8;
@@ -280,6 +291,9 @@ video{
     nav{
         grid-row: 2/3;
         grid-column: 1/-1
+    }
+    #shoppingcart{
+        grid-template-columns:repeat(1,1fr);
     }
     #homehero{
         display:none;
