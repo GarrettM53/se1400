@@ -202,7 +202,10 @@ form label{
     grid-column: 1/-1;
     
 }
-
+video{
+    float:right;
+    margin-left:2em;
+}
 
 @media only screen and (max-width:1100px) {
     #wrapper{
@@ -218,6 +221,8 @@ form label{
     nav ul{
         flex-flow: column nowrap;
     }
+    nav a{
+        text
     #homehero{
         grid-row:2/3;
         grid-column: 5/8;
@@ -244,6 +249,12 @@ form label{
         height:auto;
         padding-left: 0;
     }
+    video{
+        float:none;
+        margin:0;
+        width:100%;
+        height:auto;
+    }
 }
 
 @media only screen and (max-width:600px){
@@ -267,4 +278,5 @@ form label{
 #alumnihero{
     display:none;
 }
+
 }
