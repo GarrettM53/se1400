@@ -8,6 +8,14 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <script>
+    window.SnipcartSettings = {
+        publicApiKey: 'MTM3YjA5NGUtNzNjYy00MDJiLWIwMjYtZDc3MWEyYmU4MDAxNjM4OTg3MDExNDMyODM4NzAz',
+        loadStrategy: 'on-user-interaction',
+    };
+
+    (()=>{var c,d;(d=(c=window.SnipcartSettings).version)!=null||(c.version="3.0");var s,S;(S=(s=window.SnipcartSettings).timeoutDuration)!=null||(s.timeoutDuration=2750);var l,p;(p=(l=window.SnipcartSettings).domain)!=null||(l.domain="cdn.snipcart.com");var w,u;(u=(w=window.SnipcartSettings).protocol)!=null||(w.protocol="https");var f=window.SnipcartSettings.version.includes("v3.0.0-ci")||window.SnipcartSettings.version!="3.0"&&window.SnipcartSettings.version.localeCompare("3.4.0",void 0,{numeric:!0,sensitivity:"base"})===-1,m=["focus","mouseover","touchmove","scroll","keydown"];window.LoadSnipcart=o;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",r):r();function r(){window.SnipcartSettings.loadStrategy?window.SnipcartSettings.loadStrategy==="on-user-interaction"&&(m.forEach(t=>document.addEventListener(t,o)),setTimeout(o,window.SnipcartSettings.timeoutDuration)):o()}var a=!1;function o(){if(a)return;a=!0;let t=document.getElementsByTagName("head")[0],e=document.querySelector("#snipcart"),i=document.querySelector(`src[src^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][src$="snipcart.js"]`),n=document.querySelector(`link[href^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][href$="snipcart.css"]`);e||(e=document.createElement("div"),e.id="snipcart",e.setAttribute("hidden","true"),document.body.appendChild(e)),v(e),i||(i=document.createElement("script"),i.src=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.js`,i.async=!0,t.appendChild(i)),n||(n=document.createElement("link"),n.rel="stylesheet",n.type="text/css",n.href=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.css`,t.prepend(n)),m.forEach(g=>document.removeEventListener(g,o))}function v(t){!f||(t.dataset.apiKey=window.SnipcartSettings.publicApiKey,window.SnipcartSettings.addProductBehavior&&(t.dataset.configAddProductBehavior=window.SnipcartSettings.addProductBehavior),window.SnipcartSettings.modalStyle&&(t.dataset.configModalStyle=window.SnipcartSettings.modalStyle),window.SnipcartSettings.currency&&(t.dataset.currency=window.SnipcartSettings.currency),window.SnipcartSettings.templatesUrl&&(t.dataset.templatesUrl=window.SnipcartSettings.templatesUrl))}})();
+</script>http://127.0.0.1:3000/utahtech9/faculty.html
     <div id="wrapper"> 
     <div id ="bluebar"></div>
     <div id ="greybar"></div> 
@@ -26,26 +34,7 @@
   </nav>
    <div id="alumnihero"> </div>
   <main>
-    <h2> Join Alumni Mailing List </h2>
-    <h3> Request Alumni Newsletter </h3>
-    <p> Required information is marked with an asterisk (*).</p>
-    <form method ="post" action ="https://kearl.net/se1400/mail.php">
-        <label for="myfname">*First Name:</label>
-        <input type = "text" id ="myfname" name="myFname" required>
-        <label for="myLname">* Last Name:</label>
-        <input type = "text" id="myLname" name ="myLname" required>
-        <label for="myEmail"> *Email:</label>
-        <input type ="email" id="myEmail" name="myEmail" required>
-        <label for="myPhone"> Phone:</label>
-        <input type="tel" id="myPhone" name="myPhone">
-        <label for="gradDate">Graduation Date:</label>
-        <input type="date" id="gradDate" name="gradDate">
-        <label for="myComments">Comments:</label>
-        <textarea id="myComments" name="myComments" rows="2" cols="20"></textarea>
-        <input type="submit" id="mySubmit" value="submit">
-    </form>
-
- 
+   
     <div>
       Utah Tech University<br>
       225 S 700 E<br>
