@@ -124,6 +124,29 @@ footer p{
     float:right;
     margin:0px;
 }
+
+#resume {
+    max-width: 900px;
+    margin: 0 auto;
+    padding:20px;
+}
+#resume h1{
+    font-size:2rem;
+    margin-bottom:5px;
+}
+#resume h2{
+    margin-top: 30px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size:1.3rem;
+}
+#resume h3{
+    margin-top:20px;
+    font-size:1.1rem;
+}
+#resume ul{
+    margin-left:20px;
+}
 @media screen and ( max-width:992px){
     #wrapper{
         grid-template-columns: 1fr 786px 1fr;
