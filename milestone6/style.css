@@ -330,11 +330,11 @@ body{
 }
 @media screen and ( max-width:992px){
     #wrapper{
-        grid-template-columns: 1fr 786px 1fr;
+        grid-template-columns: 1fr;
     }
     header{
         grid-column:1/-1;
-        width:100vw;
+        width:100%;
     }
     main{
         grid-column:2/4;
