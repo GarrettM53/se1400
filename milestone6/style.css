@@ -171,6 +171,24 @@ body{
 #wrapper{
     flex:1;
 }
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url('images/cityback.jpg') center/cover no repeat;
+    color:#fff;
+    padding:150px 20px 100px;
+    text-align:center;
+}
+.hero h1{
+    font-size:3rem;
+    margin-bottom:150px 20px 100px;
+    text-align:center;
+}
+.hero p{
+    font-size:1.2 rem;
+    max-width:700px;
+    margin: 0 auto;
+    line-height:1.6;
+}
+
 
 @media screen and ( max-width:992px){
     #wrapper{
