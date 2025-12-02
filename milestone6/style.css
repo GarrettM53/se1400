@@ -336,6 +336,7 @@ body{
     right:-80px;
     animation-delay:2s;
 }
+
 @keyframes float{
     0%{transform:translateY(0px);}
     50%{transform:translateY(20px);}
