@@ -398,5 +398,13 @@ body{
         max-width:100%;
         height:auto;
     }
+    .about-section{
+    flex-direction:column;
+    text-align:center;
+}
+.about-section img.about-img{
+    width:80%;
+    height:auto;
+}
 }
 
