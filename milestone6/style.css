@@ -124,6 +124,7 @@ footer p{
     margin: 40px auto;
     padding:20px;
     line-height:1.6;
+    position:relative;
 }
 #resume h1{
     font-size:2.5rem;
@@ -319,11 +320,11 @@ body{
 .resume-bg-shape{
     position:absolute;
     width:120px;
-    height:120pc;
+    height:120px;
     background:rgba(4,217,255,0.15);
     border-radius:50%;
     filter:blur(10px);
-    animation: float 6s ease-in-out infinite;
+    animation: float 5s ease-in-out infinite;
     z-index:-1;
 }
 .shape1{
@@ -334,6 +335,11 @@ body{
     bottom:100px;
     right:-80px;
     animation-delay:2s;
+}
+@keyframes float{
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(20px);}
+    100%{transform:translateY(0px);}
 }
 @keyframes fadeInLeft{
     to{
