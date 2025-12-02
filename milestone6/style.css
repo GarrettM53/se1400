@@ -76,7 +76,7 @@ img{
     display:flex;
     justify-content:center;
     gap: 40px;
-    margin:20px o;
+    margin:20px 0;
     flex-wrap:wrap;
 }
 #bottom-images a{
@@ -172,18 +172,18 @@ body{
     flex:1;
 }
 .hero{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url('images/cityback.jpg') center/cover no repeat;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url('images/cityback.jpg') center/cover no-repeat;
     color:#fff;
     padding:150px 20px 100px;
     text-align:center;
 }
 .hero h1{
     font-size:3rem;
-    margin-bottom:150px 20px 100px;
+    margin:150px 20px 100px;
     text-align:center;
 }
 .hero p{
-    font-size:1.2 rem;
+    font-size:1.2rem;
     max-width:700px;
     margin: 0 auto;
     line-height:1.6;
@@ -214,6 +214,10 @@ body{
 .split-section p{
     color:#ccc;
     line-height:1.5;
+}
+.highlight{
+    color:#04d9ff;
+    font-weight:bold;
 }
 @media screen and ( max-width:992px){
     #wrapper{
