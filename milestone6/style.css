@@ -304,7 +304,12 @@ body{
     min-width:250px;
     color:#ccc;
 }
-
+.fade-in-left{
+    opacity:0;
+    transform:translateX(-50px);
+    animation:fadeInLeft 1s forwards;
+    animation-delay:0.3s;
+}
 @media screen and ( max-width:992px){
     #wrapper{
         grid-template-columns: 1fr 786px 1fr;
