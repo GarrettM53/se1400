@@ -316,6 +316,25 @@ body{
     animation:fadeInRight 1s forwards;
     animation-delay:0.3s;
 }
+.resume-bg-shape{
+    position:absolute;
+    width:120px;
+    height:120pc;
+    background:rgba(4,217,255,0.15);
+    border-radius:50%;
+    filter:blur(10px);
+    animation: float 6s ease-in-out infinite;
+    z-index:-1;
+}
+.shape1{
+    top:50px;
+    left:-80px;
+}
+.shape2{
+    bottom:100px;
+    right:-80px;
+    animation-delay:2s;
+}
 @keyframes fadeInLeft{
     to{
         opacity:1;
