@@ -174,12 +174,12 @@ body{
 .hero{
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url('images/cityback.jpg') center/cover no-repeat;
     color:#fff;
-    padding:150px 20px 100px;
+    padding:10px 20px 100px;
     text-align:center;
 }
 .hero h1{
     font-size:3rem;
-    margin:150px 20px 100px;
+    margin:10px 20px 100px;
     text-align:center;
 }
 .hero p{
@@ -188,30 +188,31 @@ body{
     margin: 0 auto;
     line-height:1.6;
 }
-.split-section{
+.split-sections{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    align-items:flex-start;
     flex-wrap:wrap;
     margin:50px 0;
+    gap:10px;
 }
-.split-section{
+.section{
     background-color:rgba(255,255,255,0.05);
     padding:30px;
     flex:1 1 3000px;
-    margin:10px;
     border-radius:10px;
-    text-align:center;
+    text-align:left;
     transition:transform 0.3s ease, background-color 0.3s ease;
 }
-.split-section:hover{
+.section:hover{
     transform:translatey(-5px);
     background-color:rgba(255,255,255,0.1);
 }
-.split-section h2{
+.section h2{
     color:#04d9ff;
     margin-bottom:15px;
 }
-.split-section p{
+.section p{
     color:#ccc;
     line-height:1.5;
 }
